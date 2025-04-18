@@ -1,0 +1,93 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 35rem;
+  margin-right: 1rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.header > div {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.header strong {
+  display: inline-block;
+  width: 20%;
+}
+
+.payment {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.payment a {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 0.8rem 5rem;
+  border-radius: 1rem;
+}
+
+.statusTimeline {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid #e0e0e0;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -8px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #2196f3;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #2196f3;
+}
+
+.timelineContent {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  background: #2196f3;
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .statusTimeline {
+    padding-left: 0.5rem;
+  }
+  
+  .timelineItem {
+    padding-left: 1rem;
+  }
+}
